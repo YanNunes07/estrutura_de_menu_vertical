@@ -1,0 +1,58 @@
+<!DOCTYPE html/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estlos.css">
+    <title>Modelo 2 - Layout em Colunas vertical</title>
+
+<script>
+    function mensagem(){
+        alert("ola mundo!!!");
+    }
+</script>
+
+</head>
+<body>
+    <main class="geral"> <!-- como se fosse uma div geral-->
+        <header class="topo">
+            <h1>Estrutura básica de Layout</h1>
+        </header>
+       
+        <nav class="menu">
+            <h2>menu</h2>
+        </nav>
+        
+        <section class="conteudo">
+            <article class="noticias01">
+                
+                <!--menu com botoes-->
+                <button>mensagen</button>
+            
+                <a href="#" class="btn">site1</a>
+            
+                <button class="btn">mensagem2</button>
+            
+                <input type="button" class="btn" onclick="mensagem()" value="leia a mensagem">
+            </article>
+          
+            <article class="noticias02">
+                <h3 style="margin-left: 15px">menu vertical</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+          
+            </article>
+        </section>
+        <footer class="rodape">
+            <h3>Definimos o rodapé</h3>
+        </footer>
+
+    </main>
+</body>
+</html>
